@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*token*
+*credentials*
+
+# Local data and generated outputs
+data/*
+!data/README.md
+raw_data/
+parsed_texts/
+filtered_texts/
+training_data/
+training_data_database_identification/
+llm_labelled_data/
+processed_data/
+output/
+outputs/
+plots/
+visualizations/
+models/
+
+# Large or generated artefacts
+*.pdf
+*.zip
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.sqlite
+*.db
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*
+
